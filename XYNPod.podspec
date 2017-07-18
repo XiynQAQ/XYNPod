@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author             = { "XiYanan" => "Xiyn_QAQ@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/XiynQAQ/XYNPod.git", :tag => "1.0.0" }
-  s.source_files  = 'XYNPods/XYNPod/XYNPods/MyTools/*.{h,m}'  
+  s.source_files  = 'XYNPod/XYNPod/XYNPods/MyTools/*.{h,m}'  
 
   s.framework  = "UIKit"
 end
